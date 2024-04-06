@@ -16,12 +16,6 @@ public class PasswordResetController {
     @Autowired
     private PasswordResetService passwordResetService;
 
-//    @Autowired
-//    private PasswordReset passwordReset;
-//
-//    @Autowired
-//    private VerifyOTP verifyOTP;
-
     @PostMapping("/reset-password-request")
     public ResponseEntity<String> requestPasswordReset(@RequestBody PasswordResetRequest passwordResetRequest) {
         try {
