@@ -1,10 +1,14 @@
 package com.trial.login_backend.DTO;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PasswordResetRequest {
     private String username;
-    private String email;
+//    private String email;
     private String newPassword;
     private String confirmPassword;
+
 
     public String getUsername() {
         return username;
@@ -14,13 +18,7 @@ public class PasswordResetRequest {
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+//z
 
     public String getNewPassword() {
         return newPassword;
