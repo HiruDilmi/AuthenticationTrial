@@ -80,7 +80,7 @@ function LoginForm() {
           </div>
         </form>
       </div>
-      <Link to='/reset-password' className="forgot-pwd"> Forgot Password?</Link>
+      <Link to='/forgot-password' className="forgot-pwd"> Forgot Password?</Link>
     </div>
     
   );

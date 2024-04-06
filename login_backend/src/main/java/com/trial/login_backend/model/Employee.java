@@ -15,6 +15,7 @@ public class Employee {
     private String username;
     private String password;
     private String email;
+    private String otp;
 
     public Integer getId() {
         return id;
@@ -48,13 +49,22 @@ public class Employee {
         this.email = email;
     }
 
+    public String getOtp() {
+        return otp;
+    }
+
+    public void setOtp(String otp) {
+        this.otp = otp;
+    }
+
     public Employee() {
     }
 
-    public Employee(Integer id, String username, String password, String email) {
+    public Employee(Integer id, String username, String password, String email, String otp) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.email = email;
+        this.otp = otp;
     }
 }
